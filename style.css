@@ -1,0 +1,194 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.headd{
+    
+    position: fixed;width: 100%; z-index:1;
+}
+.hello{
+    color:rgb(204, 209, 209); font-size: 3vw;
+}
+.name{
+    font-size: 4.5vw;
+}
+.padding{
+    padding-top:200px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.bg{
+    background: rgb(0, 0, 0);
+    color:white;
+}
+.btnbg{
+    background-color: rgb(0, 0, 0);
+    color: #0CF7EB;
+    border-color: #000000;
+    cursor: pointer;
+}
+.btnbg:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none !important;
+    border-color: rgb(0, 0, 0);
+}
+.resumebtn{
+    background-color: rgb(0, 0, 0);
+    color: #0CF7EB;
+    border-color: #0CF7EB;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.resumebtn:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+    text-decoration: none !important;
+}
+
+.navtoggle{
+    background-color: #0CF7EB;
+    cursor: pointer;
+}
+.navtoggle:hover{
+    background:white;
+}
+section{
+    background: rgb(0, 0, 0);
+}
+.img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+   width: 60%;
+   height: 85%;
+
+}
+.img:hover {
+   -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    background-color:#121820;;
+}
+.left{
+    text-align: left;
+    float: left;
+}
+.right{
+    text-align: right;
+    float: right;
+}
+.icon{
+    color:#0CF7EB;
+}
+.gray{
+    color:#a8b2d1;
+}
+.giticon{
+    color:#a8b2d1;
+}
+.giticon:hover{
+    color:#0CF7EB;
+}
+.card{
+    height:25em;
+}
+.cardhover{
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+.cardhover:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0,0,0,.06);
+} 
+.card-footer {
+    margin-bottom: 2px;
+}
+.rightsideelmt{
+
+    width: 1.5px; background-color:#a8b2d1; z-index: 10; position: fixed; right: 40px; top: 31rem; height: 115px;
+}
+.leftsideelmt{
+
+    width: 1.5px; background-color: #a8b2d1; z-index: 10; position: fixed; left: 40px; top: 31rem; height: 115px;
+}
+.mail{
+         width: 75px;
+         background-color:black;
+         transform: rotate(90deg);
+         z-index: 10; 
+         position: fixed; 
+         right: 1px; 
+         top: 20rem; 
+         font-size: 20;
+}
+.mailhovr{
+    color:#a8b2d1;
+    cursor: pointer;
+}
+.mailhovr:hover {
+    color:#0CF7EB;
+    text-decoration: none;
+}
+.github{
+    z-index: 10; 
+    position: fixed; 
+    top: 18.5rem; 
+    left: 34px;
+}
+.linkedin{
+    z-index: 10; 
+    position: fixed; 
+    top: 21.5rem; 
+    left: 34px;
+}
+.insta{
+    z-index: 10; 
+    position: fixed; 
+    top: 24.5rem; 
+    left: 34px;
+}
+.pinterest{
+    z-index: 10; 
+    position: fixed; 
+    top: 27.5rem; 
+    left: 34px;
+}
+
+.copyright-size{
+    font-size:12px;
+}
+
+.whitegray{
+    color:#afe3f0;
+}
+.lightgray{
+    color:#434a5e;
+}
+.li_1 {
+    display: block;
+}
+
+.li_1:before {
+    content: "▹";
+    font-family: 'Glyphicons Halflings';
+    font-size: 15px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #0CF7EB;;
+
+}
