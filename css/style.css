@@ -146,22 +146,28 @@ section{
 .github{
     z-index: 10; 
     position: fixed; 
-    top: 18.5rem; 
+    top: 15.5rem; 
     left: 34px;
 }
 .linkedin{
     z-index: 10; 
     position: fixed; 
-    top: 21.5rem; 
+    top: 18.5rem; 
     left: 34px;
 }
 .insta{
     z-index: 10; 
     position: fixed; 
+    top: 21.5rem; 
+    left: 34px;
+}
+.facebook{
+    z-index: 10; 
+    position: fixed; 
     top: 24.5rem; 
     left: 34px;
 }
-.pinterest{
+.whatsapp{
     z-index: 10; 
     position: fixed; 
     top: 27.5rem; 
